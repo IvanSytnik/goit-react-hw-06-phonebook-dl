@@ -4,7 +4,7 @@ import SubmitContacts from '../SubmitContacts/SubmitContacts'
 import Filter from '../Filter/Filter'
 import RenderContacts from '../RenderContacts/RenderContacts'
 import { useDispatch, useSelector } from 'react-redux';
-import { nameAction, numberAction, addContactAction, deleteContactAction, filterContactAction } from "redux/contacts/contacts.actions";
+import { nameAction, numberAction, addContactAction, deleteContactAction, filterContactAction } from "redux/contacts/contacts.slice";
 // class Contacts extends Component {
 //     state = {
 //      contacts: [],
